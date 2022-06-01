@@ -1,0 +1,22 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CameraFollowTargett : MonoBehaviour
+{
+    [SerializeField]
+    private GameObject target;
+    [SerializeField]
+    private float PixelsPerUnit;
+
+    void Update()
+    {
+        transform.position = PixelPerfectClamp(target.transform.position, PixelsPerUnit);
+    }
+
+    private Vector3 PixelPerfectClamp(Vector3 moveVector, float pixelsPerUnit)
+    {
+        Vector3 vectorInPixels = new Vector3(Mathf.CeilToInt(moveVector.x * pixelsPerUnit), Mathf.CeilToInt(moveVector.y * pixelsPerUnit), Mathf.CeilToInt(moveVector.z * pixelsPerUnit));
+        return vectorInPixels / pixelsPerUnit;
+    }
+}
