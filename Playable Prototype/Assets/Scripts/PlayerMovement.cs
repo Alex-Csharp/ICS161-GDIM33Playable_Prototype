@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField]
+    private float playerPositionX;
+    [SerializeField]
+    private GameObject parallaxFollowCam;
+
     // Start is called before the first frame update
     void Start()
     {
