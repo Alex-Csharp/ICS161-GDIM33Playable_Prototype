@@ -948,7 +948,7 @@ GameObject:
   - component: {fileID: 646222829}
   - component: {fileID: 646222828}
   - component: {fileID: 646222827}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5132,7 +5132,7 @@ GameObject:
   - component: {fileID: 1018689102}
   - component: {fileID: 1018689101}
   - component: {fileID: 1018689100}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5147,7 +5147,7 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1018689097}
   m_Enabled: 1
-  m_CellSize: {x: 1, y: 1, z: 0}
+  m_CellSize: {x: 0.25, y: 0.25, z: 0}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
@@ -5609,7 +5609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1180692337}
   - component: {fileID: 1180692336}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5624,7 +5624,7 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1180692335}
   m_Enabled: 1
-  m_CellSize: {x: 1, y: 1, z: 0}
+  m_CellSize: {x: 0.25, y: 0.25, z: 0}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
@@ -6283,7 +6283,7 @@ GameObject:
   - component: {fileID: 1656621024}
   - component: {fileID: 1656621023}
   - component: {fileID: 1656621022}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: death
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6887,7 +6887,7 @@ GameObject:
   - component: {fileID: 1808517429}
   - component: {fileID: 1808517428}
   - component: {fileID: 1808517427}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8326,7 +8326,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2141173052}
   - component: {fileID: 2141173051}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8341,7 +8341,7 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2141173050}
   m_Enabled: 1
-  m_CellSize: {x: 1, y: 1, z: 0}
+  m_CellSize: {x: 0.25, y: 0.25, z: 1}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
